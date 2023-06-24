@@ -1,0 +1,205 @@
+/*** Font imports ***/
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+
+/*** Base styles ***/
+
+:root {
+    --main-text-color: white;
+    --body-text-font-size: 18px;
+    --link-bg-color: rgba(71, 2, 2, 0.58);
+}
+
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font: var(--body-text-font-size);
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link, a:active, a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+/*** End of Base stles ***/
+
+.logo {
+    border-radius: 50%;
+}
+
+/*** Components ***/
+
+.button {
+    background-color: #d95204;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    padding: 12px 24px;
+    height: 40px;
+    color: var(--main-text-color);
+    max-width: 150px;
+    width: 100%;
+}
+
+
+/*************************** HOME PAGE ***************************************/
+
+.hero-wrapper {
+    background-image: url(./assets/Home-Page-background.webp);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+@media screen and (max-width:1199px) {
+    .hero-wrapper {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+    }
+}
+
+.hero-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background: #0a0a0a31;
+}
+
+.site-title-home {
+    color: var(--main-text-color);
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.site-subtitle-home {
+    color: var(--main-text-color);
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.hero-content {
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    margin-left: 30px;
+}
+
+/*********************************** CURSOS Section - HOME PAGE ************************************/
+.cursos-wrapper{
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cursos {
+    width: 100%;
+    padding-top: 70px;
+}
+
+#cursos {
+    margin-left: 30px;
+}
+
+
+/*********************************** End of CURSOS Section - HOME PAGE *****************************/
+
+
+
+
+
+footer {
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.192);
+    height: 15px;
+}
+
+/*************************************** End of HOME PAGE ******************************************/
+
+/************************************* LINKS PAGE****************************************************/
+
+.links-page-wrapper {
+    background-image: url(./assets/Home-Page-background.webp);
+    background-position: bottom center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.links-page-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background: #7b2a2752;
+}
+
+.content-wrapper {
+    max-width: 680px;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 3rem;
+}
+
+.site-title {
+    color: var(--main-text-color);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.76);
+}
+
+.site-subtitle {
+    color: var(--main-text-color);
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.link-container {
+    background-color: var(--link-bg-color); 
+    border-radius: 14px;
+}
+
+.link-text {
+    font-size: var(--body-text-font-size);
+    color: var(--main-text-color);
+}
+
+
+/*********************** End of LINKS Page **********************************************/
