@@ -127,6 +127,13 @@ a:link, a:active, a {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 780px) {
+    .cursos__wrapper {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+    }
+}
+
 .cursos {
     width: 100%;
     padding-top: 70px;
@@ -134,6 +141,16 @@ a:link, a:active, a {
 
 #cursos {
     margin-left: 30px;
+}
+
+.curso__price {
+    font-size: 20px;
+}
+
+.curso__container {
+    max-width: 250px;
+    justify-content: space-around;
+
 }
 
 
