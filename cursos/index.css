@@ -1,0 +1,103 @@
+/*** Font imports ***/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/****** Custom properties********/
+
+:root {
+    --primary-terapia-angelical: #ffd700bd;
+    --secondary-terapia-angelical: #515E9E;
+    --body-text-terapia-angelical: 'Poppins', sans-serif;
+    --body-font-size-terapia-angelical: 20px;
+    --yellow-font-terapia-angelical:var(--primary-terapia-angelical);
+    --heading-font-terapia-angelical: 'Inter', sans-serif;
+    --body-font-terapia-angelical: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+    font-family: var(--heading-font-terapia-angelical);
+    color: var(--secondary-terapia-angelical);
+}
+
+p {
+    font-family: var(--body-font-terapia-angelical);
+    font-size: var(--body-font-size-terapia-angelical);
+    color: var(--secondary-terapia-angelical);
+}
+
+/****** Utilities********/
+
+.yellow {
+    color: var(--primary-terapia-angelical);
+}
+
+/****************************** TOP BAR********************************/
+
+.top-bar {
+    background: var(--primary-terapia-angelical);
+    font-family: var(--body-text-terapia-angelical);
+}
+
+.top-bar__content {
+    line-height: 1.5em;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    max-height: 55px;
+    color: var(--secondary-terapia-angelical);
+}
+/******************************END OF TOP BAR********************************/
+
+
+/****************************** HERO ********************************/
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1.hero__title {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.hero__video-container {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border: solid 10px var(--primary-terapia-angelical);
+}
+
+.hero__subheading {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--secondary-terapia-angelical)
+}
+
+/* iframe.hero__video {
+    border: solid 10px var(--primary-terapia-angelical);
+} */
+
+/****************************** END OF HERO ********************************/
+
+/*******************************SECTION 1 Terapia Angelical***********************************/
+
+.section-1__terapia-angelical {
+    background-color: #aed6f1;
+    padding: 60px 15px;
+    margin-top: 35px;
+}
+
+.section-1__terapia-angelical-heading {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.section-1__terapia-angelical__content-wrapper {
+padding: 25px 10px;
+}
+
+/*******************************END OF SECTION 1 Terapia Angelical**********************************/
