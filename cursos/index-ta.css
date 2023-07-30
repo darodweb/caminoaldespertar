@@ -21,16 +21,29 @@
 h1,h2,h3,h4 {
     font-family: var(--heading-font-terapia-angelical);
     color: var(--secondary-terapia-angelical);
+    line-height: 1.5;
 }
 
 h3 {
     font-size: clamp(1.563rem, 2.172vw + 1.075rem, 2.813rem) !important;
+}
+h4 {
+    font-size: clamp(1.375rem, 0.128vw + 1.342rem, 1.5rem) !important;
 }
 
 p {
     font-family: var(--body-font-terapia-angelical);
     font-size: var(--body-font-size-terapia-angelical);
     color: var(--secondary-terapia-angelical);
+}
+
+.max-width {
+    max-width: 1095px !important;
+    width: 100% !important;
+}
+
+img {
+    border: solid 4px var(--primary-terapia-angelical);
 }
 
 /****** Utilities********/
@@ -59,11 +72,11 @@ p {
 
 /****************************** HERO ********************************/
 
-.hero {
+/* .hero {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
+} */
 
 h1.hero__title {
     font-size: clamp(2.375rem, 2.932vw + 1.717rem, 4.063rem);
@@ -75,8 +88,15 @@ h1.hero__title {
 .hero__video-container {
     aspect-ratio: 16/9;
     width: 100%;
-    border: solid 10px var(--primary-terapia-angelical);
+    border: solid 4px var(--primary-terapia-angelical);
 }
+
+@media screen and (min-width:992px) {
+    .hero__video-container {
+        width: 60%;
+    }
+} 
+
 
 .hero__subheading {
     font-size: clamp(1.125rem, 0.434vw + 1.028rem, 1.375rem);
@@ -118,7 +138,7 @@ h1.hero__title {
 
 .section-2__terapia-angelical {
     padding: 60px 15px;
-    margin-top: 35px;
+
 }
 
 .section-2__terapia-angelical-heading {
