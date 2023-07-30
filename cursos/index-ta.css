@@ -206,4 +206,22 @@ h1.hero__title {
     display: inherit;
 }
 
-/*******************************END OF SECTION 3 Terapia Angelical**********************************/
+img.img-carrousel {
+    max-width: 500px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    img.img-carrousel {
+        max-width: 650px;
+    }
+}
+
+/* @media screen and (min-width:780px) {
+    .modal-content {
+        width: 90vw;
+        margin: 35px auto;
+    }
+} */
+
+/*******************************END OF SECTION 4 Terapia Angelical**********************************/
