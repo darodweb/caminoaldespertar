@@ -8,6 +8,7 @@
 :root {
     --primary-terapia-angelical: #ffd700bd;
     --secondary-terapia-angelical: #515E9E;
+    --light-terapia-angelical:#F3F5F8;
     --body-text-terapia-angelical: 'Poppins', sans-serif;
     --body-font-size-terapia-angelical: clamp(1.125rem, 0.217vw + 1.076rem, 1.25rem);
     --yellow-font-terapia-angelical:var(--primary-terapia-angelical);
@@ -38,7 +39,7 @@ p {
 }
 
 .max-width {
-    max-width: 1095px !important;
+    max-width: 1200px !important;
     width: 100% !important;
 }
 
@@ -124,7 +125,7 @@ h1.hero__title {
 }
 
 .section-1__terapia-angelical__content-wrapper {
-    background-color: #aed6f1;
+    background-color: var(--light-terapia-angelical);
     padding: 25px 20px;
 }
 
@@ -147,8 +148,10 @@ h1.hero__title {
 }
 
 .section-2__terapia-angelical__content-wrapper {
-    background-color: #F3F5F8;
+    /* background-color: #F3F5F8; */
     padding: 25px 20px;
+    background-image: url(https://caminoaldespertar.com/wp-content/uploads/2023/03/clouds.webp);
+    background-position:center center;
 }
 
 .section-2__terapia-angelical-bullet-container {
@@ -156,3 +159,51 @@ h1.hero__title {
 }
 
 /*******************************END OF SECTION 2 Terapia Angelical**********************************/
+
+/*******************************SECTION 3 Terapia Angelical***********************************/
+
+.section-3__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+.section-3__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-3__terapia-angelical__content-wrapper {
+    background-color: #F3F5F8;
+    padding: 25px 20px;
+    background-position:center center;
+}
+
+.section-3__terapia-angelical-bullet-container {
+    display: inherit;
+}
+
+/*******************************END OF SECTION 3 Terapia Angelical**********************************/
+
+/*******************************SECTION 4 Terapia Angelical***********************************/
+
+.section-4__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+.section-4__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-4__terapia-angelical__content-wrapper {
+    background-color: #F3F5F8;
+    padding: 25px 20px;
+    background-position:center center;
+}
+
+.section-4__terapia-angelical-bullet-container {
+    display: inherit;
+}
+
+/*******************************END OF SECTION 3 Terapia Angelical**********************************/
