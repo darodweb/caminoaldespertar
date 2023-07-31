@@ -146,7 +146,7 @@ h1.hero__title {
 .section-2__terapia-angelical__content-wrapper {
     /* background-color: #F3F5F8; */
     padding: 25px 20px;
-    background-image: url(https://caminoaldespertar.com/wp-content/uploads/2023/03/clouds.webp);
+    background-image: url(../assets/clouds.webp);
     background-position:center center;
 }
 
@@ -187,7 +187,7 @@ h1.hero__title {
 }
 
 .section-4__terapia-angelical__content-wrapper {
-    background-image: url(/assets/clouds_2.webp);
+    background-image: url(../assets/clouds_2.webp);
     background-position:center center;
     padding: 25px 20px;
 }
