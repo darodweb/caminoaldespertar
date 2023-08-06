@@ -11,6 +11,7 @@
     --body-text-font-size: 18px;
     --link-bg-color: rgba(71, 2, 2, 0.58);
     --primary-color: #d95204;
+    --secondary-color: #ffd700bd;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -47,6 +48,10 @@ a:link, a:active, a {
 
 .cursor {
     cursor: pointer;
+}
+
+img {
+    border: 4px solid var(--secondary-color);
 }
 
 
