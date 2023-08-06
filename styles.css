@@ -95,7 +95,7 @@ a.button-asesor, a:active.button-asesor, a:link.button-asesor {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -114,7 +114,6 @@ a.button-asesor, a:active.button-asesor, a:link.button-asesor {
     content: "";
     position: absolute;
     top: 0;
-    right:0;
     bottom: 0;
     left: 0;
     background: #0a0a0a31;
