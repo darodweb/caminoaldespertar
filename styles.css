@@ -185,7 +185,7 @@ a.button-asesor, a:active.button-asesor, a:link.button-asesor {
 footer {
     width: 100vw;
     background-color: rgba(128, 128, 128, 0.192);
-    height: 50px;
+    height: auto;
 }
 
 img.footer-email {
