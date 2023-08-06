@@ -87,7 +87,7 @@ img {
 .top-bar__content {
     line-height: 1.5em;
     padding: 5px 0;
-    font-size: 1rem;
+    font-size: var(--body-font-size-terapia-angelical);
     font-weight: 400;
     max-height: 55px;
     color: var(--secondary-terapia-angelical);
