@@ -10,6 +10,7 @@
     --main-text-color: white;
     --body-text-font-size: 18px;
     --link-bg-color: rgba(71, 2, 2, 0.58);
+    --primary-color: #d95204;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -44,6 +45,10 @@ a:link, a:active, a {
     color: unset;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 
 /*** End of Base stles ***/
 
@@ -60,6 +65,18 @@ a:link, a:active, a {
     padding: 12px 24px;
     height: 40px;
     color: var(--main-text-color) !important;
+    max-width: 150px;
+    width: 100%;
+}
+
+a.button-asesor, a:active.button-asesor, a:link.button-asesor {
+    background-color: white;
+    border: solid 2px #d95204;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    padding: 12px 24px;
+    height: 40px;
+    color: var(--primary-color) !important;
     max-width: 150px;
     width: 100%;
 }
