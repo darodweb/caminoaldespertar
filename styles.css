@@ -233,6 +233,10 @@ img.footer-email {
     margin-top: 3rem;
 }
 
+a.link-element-wrapper, a:link.link-element-wrapper, a:active.link-element-wrapper {
+    width: 100%;
+}
+
 .site-title {
     color: var(--main-text-color);
     font-size: 28px;
