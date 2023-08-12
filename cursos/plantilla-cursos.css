@@ -1,39 +1,126 @@
+
+/* Presets */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
+/*** Font imports ***/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/****** Custom properties********/
+
+:root {
+    /* --body-font-family: 'Poppins', sans-serif; */
+    --body-font-size: clamp(1.125rem, 0.123vw + 1.097rem, 1.25rem);
+    --body-font-line-height: clamp(1.463rem, 0.407vw + 1.371rem, 1.875rem);
+    --body-font-color: rgb(100, 100, 100);
+    --headings-font-size: clamp(1.75rem, 0.247vw + 1.694rem, 2rem);
+    --headings-font-family: 'Inter', sans-serif;
+    --headings-font-color: #000000;
+    --cta-comprar: #FF0000;
+    --cta-asesor: #0dbe0dfb;
+}
+
+
+  /********************** Base ***********************/
+
+  p {
+    /* font-family: var(--body-font-family); */
+    font-size: var(--body-font-size);
+    /* color: var(--body-font-color); */
+    line-height: var(--body-font-line-height);
   }
-  
+  ul {
+    list-style-type: none;
+    padding-left: unset !important;
+  }
+
+  li {
+    font-size: var(--body-font-size);
+    margin: 15px 0px;
+  }
+
+  h3 {
+    font-family: var(--headings-font-family);
+    font-weight: 600;
+    line-height: clamp(2.625rem, 0.37vw + 2.542rem, 3rem);
+    color: var(--headings-font-color)
+
+  }
+
+  /********************** End of Base ***********************/
+
+  /***************** Hero Section *******************************/
+
+  header {
+    width: 100vw;
+  }
   .hero {
     background-color: #000;
     color: #fff;
     padding: 20px;
     margin: 0;
+    min-height: 35vh;
+    height: 100%;
+    position: relative;
+    display: grid;
+    place-content: center;
   }
+
+  .hero::after {
+    content: "";
+    background-image: url(../assets/hero-cover.png);
+    background-position: center center;
+    object-fit:contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    width: 100vw;
+  }
+
+  .hero-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+  }
+  .hero-text-content {
+    max-width: 800px;
+    
+  }
+
+  /*****************End of Hero Section *******************************/
   
   .page-wrapper {
     max-width: 1200px;
     margin: 0 auto;
   }
   
+  /*****************Main Content Section *******************************/
+  
+  .intro-text {
+    padding: 10px;
+    line-height: 1.5;
+  }
+
   .plantilla-main-content {
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
   }
   
-  .plantilla-sidebar {
-    width: 400px;
-    background-color: aliceblue;
-    height: 100vh;
-
-  }
   
   .border-gray {
-    border: 1px solid gray;
+    border: 1px solid rgb(230, 230, 230);
     padding: 10px;
+    margin: 35px 5px;
   }
   
   .call-to-action {
@@ -47,6 +134,31 @@ body {
     background-color: #444;
   }
   
-  header {
-    width: 100vw;
+  /*****************Garantia Section *******************************/
+.accordion-button {
+  font-size:var(--body-font-size);
+}
+
+  /*****************End of Garantia Section *******************************/
+
+
+
+  /*****************End of Main Content Section *******************************/
+
+
+
+  /*****************Sidebar Content Section *******************************/
+
+  .plantilla-sidebar {
+    width: 400px;
+    background-color: aliceblue;
+    height: 100vh;
   }
+
+
+  /*****************End of Sidebar Content Section *******************************/
+
+
+
+
+
