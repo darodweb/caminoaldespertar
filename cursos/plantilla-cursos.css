@@ -137,6 +137,7 @@
   /*****************Garantia Section *******************************/
 .accordion-button {
   font-size:var(--body-font-size);
+  background-color: #F8F8F8;
 }
 
   /*****************End of Garantia Section *******************************/
