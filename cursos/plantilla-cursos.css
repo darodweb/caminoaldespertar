@@ -22,13 +22,17 @@
     --headings-font-size: clamp(1.75rem, 0.247vw + 1.694rem, 2rem);
     --headings-font-family: 'Inter', sans-serif;
     --headings-font-color: #000000;
-    --cta-comprar: #FF0000;
+    --orange:#d95204;
+    --cta-comprar: #d95204;
     --cta-asesor: #0dbe0dfb;
     --border-color: #ffd700bd;
 }
 
 
   /********************** Base ***********************/
+
+
+
 
   p {
     /* font-family: var(--body-font-family); */
@@ -174,10 +178,82 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
 
   /*****************Sidebar Content Section *******************************/
 
-  .plantilla-sidebar {
+  .sidebar {
     width: 400px;
-    background-color: aliceblue;
-    height: 100vh;
+    padding: 0 15px;
+  }
+
+  .sidebar-wrapper {
+    position: sticky;
+    top: -15px;
+    bottom: 50px;
+  }
+
+  .sidebar__vsl {
+    position: relative;
+  }
+
+  iframe {
+    max-width: 400px !important;
+  }
+
+  /* .sidebar__vsl::after {
+    content: "";
+    top: 0px;
+    left: 0px; 
+    bottom: 0px;
+    right: 0px;
+    width: 400px;
+    background-image: url(../assets/terapia-angelical-video_overlay.webp);
+    object-fit:cover;
+    background-position: center center;
+    position: absolute;
+    background-repeat: no-repeat;
+  } */
+
+  .sidebar-text-container {
+    margin-left: 15px;
+    margin-top: -35px;
+  }
+
+  .sidebar-price {
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .sidebar-supporting-text {
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 35px;
+    position: relative;
+    top: 8px;
+  }
+
+  a.sidebar-cta-button, a:link.sidebar-cta-button, a:active.sidebar-cta-button,
+  a.sidebar-cta-asesor, a:link.sidebar-cta-asesor, a:active.sidebar-cta-asesor {
+    padding: 10px 12px;
+    background-color: var(--orange);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    font-size: clamp(1rem, 0.449vw + 0.89rem, 1.25rem);
+    text-align: center;
+  }
+
+  a.sidebar-cta-asesor, a:link.sidebar-cta-asesor, a:active.sidebar-cta-asesor{
+    background-color: white;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    font-weight: 700;
+  }
+
+  .sidebar__details-text{
+    color: var(--cta-comprar);
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 15px;
   }
 
 
@@ -194,7 +270,7 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     left: 0px;
     background-color: white;
     box-shadow: 0 -2px 4px rgba(0,0,0,.08), 0 -4px 12px rgba(0,0,0,.08);
-    max-height: 64px;
+    max-height: 6
   }
 
   .mobile-cta-price__old {
@@ -224,6 +300,26 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   /*****************End of Mobile Menu Section *******************************/
 
 
+/*********************************** Footer *********************************************/
 
+
+footer {
+  width: 100vw;
+  background-color: rgba(128, 128, 128, 0.192);
+  height: auto;
+}
+
+img.footer-email {
+  max-width: 200px;
+  width: 100%;
+  border: unset;
+}
+
+a.footer-phone, a:link.footer-phone, a:active.footer-phone {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*********************************** End of Footer *********************************************/
 
 
