@@ -24,6 +24,7 @@
     --headings-font-color: #000000;
     --cta-comprar: #FF0000;
     --cta-asesor: #0dbe0dfb;
+    --border-color: #ffd700bd;
 }
 
 
@@ -52,6 +53,20 @@
     color: var(--headings-font-color)
 
   }
+
+  img {
+    border: 4px solid var(--border-color);
+}
+
+a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
+  padding: 10px 12px;
+  background-color: var(--cta-asesor);
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 15px;
+  font-size: clamp(1rem, 0.449vw + 0.89rem, 1.25rem);
+}
 
   /********************** End of Base ***********************/
 
@@ -134,11 +149,20 @@
     background-color: #444;
   }
   
-  /*****************Garantia Section *******************************/
+  /*****************Preguntas Frecuentes Section *******************************/
 .accordion-button {
   font-size:var(--body-font-size);
   background-color: #F8F8F8;
 }
+
+
+  /*****************Garantia Section *******************************/
+
+  .img-garantia {
+    max-width: 150px;
+    width: 100%;
+    border: unset !important;
+  }
 
   /*****************End of Garantia Section *******************************/
 
@@ -158,6 +182,46 @@
 
 
   /*****************End of Sidebar Content Section *******************************/
+  
+  
+  
+  /*****************Mobile Menu Section *******************************/
+  
+  .mobile-cta-container {
+    margin: 0;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0 -2px 4px rgba(0,0,0,.08), 0 -4px 12px rgba(0,0,0,.08);
+    max-height: 64px;
+  }
+
+  .mobile-cta-price__old {
+    font-size: 18px;
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .mobile-cta-price {
+    font-size: 24px;
+    font-weight: 600
+  }
+  
+  
+  a.mobile-cta-button, a:link.mobile-cta-button, a:active.mobile-cta-button {
+    padding: 10px 12px;
+    background-color: var(--cta-comprar);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    font-size: clamp(1rem, 0.449vw + 0.89rem, 1.25rem);
+    text-align: center;
+  }
+
+
+  /*****************End of Mobile Menu Section *******************************/
 
 
 
