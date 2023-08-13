@@ -106,6 +106,20 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     opacity: 0.6;
     width: 100vw;
   }
+  .hero.terapia-angelical::after {
+    content: "";
+    background-image: url(../assets/hero-cover-terapia-angelical.webp);
+    background-position: center center;
+    object-fit:cover;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    width: 100vw;
+  }
 
   .hero-wrapper {
     max-width: 1200px;
