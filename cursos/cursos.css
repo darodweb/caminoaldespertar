@@ -120,6 +120,77 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     opacity: 0.6;
     width: 100vw;
   }
+  .hero.conexion-angelical-con-los-7-arcangeles::after {
+    content: "";
+    background-image: url(../assets/hero-cover-conexion-angelical-con-los-7-arcangeles.webp);
+    background-position: center center;
+    object-fit:cover;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    width: 100vw;
+  }
+
+  .hero.como-superar-la-perdida-de-un-ser-querido::after {
+    content: "";
+    background-image: url(../assets/hero-cover-como-superar-la-perdida-de-un-ser-querido.webp);
+    background-position: center center;
+    object-fit:cover;
+    background-repeat:space;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    width: 100vw;
+  }
+  .hero.tarot-desde-cero::after {
+    content: "";
+    background-image: url(../assets/hero-cover-tarot-desde-cero.webp);
+    background-position: center center;
+    object-fit:cover;
+    background-repeat:space;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    width: 100vw;
+  }
+  .hero.cristales-para-sanar::after {
+    content: "";
+    background-image: url(../assets/hero-cover-cristales-para-sanar.webp);
+    background-position: center center;
+    object-fit:cover;
+    background-repeat:space;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    width: 100vw;
+  }
+  .hero.reiki-angelical::after {
+    content: "";
+    background-image: url(../assets/hero-cover-reiki-angelical.webp);
+    background-position: center center;
+    object-fit:cover;
+    background-repeat:space;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    width: 100vw;
+  }
 
   .hero-wrapper {
     max-width: 1200px;
@@ -129,7 +200,10 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   }
   .hero-text-content {
     max-width: 800px;
-    
+  }
+
+  .hero > h1 {
+    text-transform: capitalize;
   }
 
   /*****************End of Hero Section *******************************/
@@ -234,6 +308,7 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   h3.sidebar-title {
     margin-top:12px;
     font-size: 20px;
+    text-transform: capitalize;
   }
 
   .sidebar-price {
@@ -257,7 +332,6 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     color: white;
     font-weight: 700;
     text-decoration: none;
-    margin: 0 0 0 15px;
     font-size: clamp(1rem, 0.449vw + 0.89rem, 1.25rem);
     text-align: center;
   }

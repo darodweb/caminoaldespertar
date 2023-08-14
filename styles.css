@@ -147,6 +147,13 @@ a.button-asesor, a:active.button-asesor, a:link.button-asesor {
     max-width: 950px;
     width: 100%;
     margin: 0 auto;
+    align-items: flex-start;
+}
+
+a.link, a:active.curso-link,a:link.curso-link {
+    display:flex !important;
+    flex-direction: column !important;
+    gap: 15px;
 }
 
 @media screen and (max-width: 780px) {
@@ -171,8 +178,12 @@ a.button-asesor, a:active.button-asesor, a:link.button-asesor {
 
 .curso__container {
     max-width: 250px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
 
+h4.curso__title {
+    font-size: 20px;
 }
 
 
