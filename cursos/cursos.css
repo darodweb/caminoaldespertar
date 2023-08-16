@@ -205,7 +205,6 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     opacity: 0.6;
     width: 100vw;
   }
-
   .hero.aprende-a-medir-la-energia::after {
     content: "";
     background-image: url(../assets/hero-cover-aprende-a-medir-la-energia.webp);
@@ -220,6 +219,7 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     opacity: 0.6;
     width: 100vw;
   }
+
 
   .hero-wrapper {
     max-width: 1200px;
