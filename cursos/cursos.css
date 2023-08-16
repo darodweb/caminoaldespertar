@@ -17,7 +17,7 @@
 :root {
     /* --body-font-family: 'Poppins', sans-serif; */
     --body-font-size: clamp(1.125rem, 0.123vw + 1.097rem, 1.25rem);
-    --body-font-line-height: clamp(1.463rem, 0.407vw + 1.371rem, 1.875rem);
+    --body-font-line-height: clamp(1.8rem, 0.783vw + 1.624rem, 2.25rem);
     --body-font-color: rgb(100, 100, 100);
     --headings-font-size: clamp(1.75rem, 0.247vw + 1.694rem, 2rem);
     --headings-font-family: 'Inter', sans-serif;
@@ -38,7 +38,7 @@
     /* font-family: var(--body-font-family); */
     font-size: var(--body-font-size);
     /* color: var(--body-font-color); */
-    line-height: var(--body-font-line-height);
+    line-height: var(--body-font-line-height) !important;
   }
   ul {
     list-style-type: none;
@@ -246,7 +246,6 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   
   p.intro-text {
     padding: 10px;
-    line-height: 1.7;
   }
 
   .cursos-main-content {
