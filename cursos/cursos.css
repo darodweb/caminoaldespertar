@@ -205,8 +205,8 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     opacity: 0.6;
     width: 100vw;
   }
-  
-  .hero.aprende-a-medir-la-energia-radiestesia-con-pendulo::after {
+
+  .hero.aprende-a-medir-la-energia::after {
     content: "";
     background-image: url(../assets/hero-cover-aprende-a-medir-la-energia.webp);
     background-position: center center;
@@ -218,7 +218,7 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
     right: 0px;
     bottom: 0px;
     opacity: 0.6;
-    width: 100%;
+    width: 100vw;
   }
 
   .hero-wrapper {
@@ -244,9 +244,9 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   
   /*****************Main Content Section *******************************/
   
-  .intro-text {
+  p.intro-text {
     padding: 10px;
-    line-height: 1.5;
+    line-height: 1.7;
   }
 
   .cursos-main-content {
