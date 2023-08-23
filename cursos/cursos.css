@@ -61,6 +61,11 @@
     border: 4px solid var(--border-color);
 }
 
+a, a:link, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   padding: 10px 12px;
   background-color: var(--cta-asesor);
