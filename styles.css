@@ -38,7 +38,8 @@ h1,h2,h3,h4 {
 
 p {
     font: var(--body-text-font-size);
-    font-family: 'Poppins', sans-serif;
+   /* font-family: 'Poppins', sans-serif;*/
+   line-height: 1.6;
 }
 
 a:link, a:active, a {
@@ -266,7 +267,7 @@ a.link-element-wrapper, a:link.link-element-wrapper, a:active.link-element-wrapp
 
 .link-container {
     background-color: var(--link-bg-color); 
-    border-radius: 14px;
+    border-radius: 2px;
 }
 
 .link-text {
