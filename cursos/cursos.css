@@ -76,6 +76,18 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   font-size: clamp(1rem, 0.449vw + 0.89rem, 1.25rem);
 }
 
+.top-bar {
+  background-color: #ffd700bd
+}
+p.top-bar__content {
+  line-height: 1.5em;
+  max-height: 55px;
+  margin: unset !important;
+  padding: 7px 0 7px 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
   /********************** End of Base ***********************/
 
   /***************** Hero Section *******************************/
@@ -314,6 +326,15 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
 
   .sidebar__vsl {
     position: relative;
+  }
+
+  .sidebar-price-old {
+    color: gray;
+    opacity: 0.6;
+    text-decoration: line-through;
+    font-size: 16px;
+    margin-bottom: -18px;
+    margin-top: -18px;
   }
 
   iframe {

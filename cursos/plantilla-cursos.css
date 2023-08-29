@@ -72,6 +72,17 @@ a.cta-asesor, a:link.cta-asesor, a:active.cta-asesor {
   font-size: clamp(1rem, 0.449vw + 0.89rem, 1.25rem);
 }
 
+.top-bar {
+  background-color: #ffd700bd
+}
+p.top-bar__content {
+  line-height: 1.5em;
+  max-height: 55px;
+  margin: unset !important;
+  padding: 7px 0 7px 0;
+  font-weight: 700;
+}
+
   /********************** End of Base ***********************/
 
   /***************** Hero Section *******************************/

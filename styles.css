@@ -173,8 +173,28 @@ a.link, a:active.curso-link,a:link.curso-link {
     margin-left: 30px;
 }
 
+.curso__oferta {
+    background-color: #d95204;
+    text-align: center;
+    font-size: 14px;
+    max-width: 90px;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: -10px;
+}
+
 .curso__price {
     font-size: 20px;
+}
+
+.curso__price-old {
+    color: gray;
+    opacity: 0.6;
+    text-decoration: line-through;
+    font-size: 16px;
+    margin-bottom: -15px;
+    margin-top: -15px;
 }
 
 .curso__container {
