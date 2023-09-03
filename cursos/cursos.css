@@ -85,7 +85,7 @@ p.top-bar__content {
   margin: unset !important;
   padding: 7px 0 7px 0;
   font-weight: 700;
-  font-size: 14px;
+  font-size: clamp(0.875rem, 0.652vw + 0.728rem, 1.25rem);
 }
 
   /********************** End of Base ***********************/
