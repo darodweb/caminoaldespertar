@@ -36,7 +36,7 @@
   
   ::selection {
     color: var(--main-text-color);
-    background: rgba(255, 102, 0, 0.925);
+    background: var(--primary-color);
   }
 
 
@@ -191,6 +191,12 @@ a.link, a:active.curso-link,a:link.curso-link {
 
 #cursos {
     margin-left: 30px;
+}
+
+.curso__image {
+    width: 100%;
+    max-width: 450px;
+    height:auto;
 }
 
 .curso__oferta {
